@@ -1,0 +1,34 @@
+class Box
+{
+  int l,w,h,volume;
+  void set Box(int a,int b,int c)
+  {
+    l=a;
+    w=b;
+    h=c;
+  }
+  
+  void get Box()
+  {
+  System.out.println(""+l+""+w+""+h);
+  }
+
+  void volume()
+  {
+   volume=(l*b*h);
+   System.out.println(volume);
+  }
+class Main
+{
+public static void main(String[] args)
+{
+  Box v=new Box();
+  System.out.println(volume);
+
+}
+}
+
+ 
+
+}
+  
